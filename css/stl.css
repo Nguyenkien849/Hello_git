@@ -1,0 +1,49 @@
+@media screen and (max-width: 768px) {
+	.desktop {
+		display:none;
+	}
+	.mmobile {
+		display: block;
+	}
+	.mobile-2 {
+		display: block;
+	}
+	.footer-2 {
+		display:none;
+	}
+}
+@media screen and (min-width: 768px) {
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: block;
+	}
+	.mobile-2 {
+		display: none;
+	}
+	.footer-2 {
+		display:block;
+	}
+}
+.slogan {
+	margin-top: 50px;
+}
+.slogan h1{
+	font-size: 100%;
+}
+.phone-top {
+	margin-bottom: 15px;
+}
+.mobile-2 {
+	background-color: #252525;
+}
+.bar-2 {
+	background-color: #252525!important;
+}
+.footer-bottom {
+	color: white;
+}
+.footer-bottom p,h6 {
+	margin-bottom: 8px;
+}
